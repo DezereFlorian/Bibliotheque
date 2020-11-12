@@ -1,0 +1,21 @@
+{% extends 'mangas/base.html' %}
+
+{% block content %}
+
+	<h2>Voici la liste des mangas dans la bibliothèque</h2>
+
+	{% if latest_manga_list %}
+	    <ul>
+	    	{% for manga in latest_manga_list %}
+	        	<li>
+	        		<a href="{% url 'mangas:detail' manga.id %}">{{manga.manga_name}}</a>
+	        	</li>
+	    	{% endfor %}
+	    </ul>
+	{% else %}
+	    <p>
+	    	No mangas are available.
+		</p>
+	{% endif %}
+
+{% endblock%}

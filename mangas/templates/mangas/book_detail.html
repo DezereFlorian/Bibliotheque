@@ -1,0 +1,12 @@
+{% load static %}
+{% extends 'mangas/base.html' %}
+
+{% block content %}
+<h1>{{book.manga.manga_name}} {{book.book_name}}</h1>
+
+
+<br/>
+
+<a href="{% url 'mangas:detail' book.manga.id %}">Retour à la liste des tomes</a> 
+
+{% endblock %}

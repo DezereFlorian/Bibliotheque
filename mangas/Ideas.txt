@@ -1,0 +1,9 @@
+Une page acceuil qui liste tous les mangas (avec un liens vers chaque manga) 
+Faire une page de "garde" par manga avec synopsis + image global du manga
+Puis une page pour chaque tome qui résume un peu le tome avec une image du tome + description + Possédé (O/N)
+
+liste des futures tâches: 
+- remplir la BDD 
+- mettre en place BOOTSTRAP
+- configurer un peu de CSS
+- mettre le site en ligne, dans l'idéal via le rasp... 
